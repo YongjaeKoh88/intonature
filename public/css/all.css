@@ -136,6 +136,11 @@ a:hover{text-decoration:underline;}
 	width:100%;
     display:table-row;
     background: #50af6f;
+	/* 배경 이미지 추가 */
+	background-image: url("../images/농장사진.png");
+	background-size: cover;         /* 이미지를 요소 크기에 맞게 조절 */
+	background-position: center;    /* 중앙 정렬 */
+	background-repeat: no-repeat;   /* 반복 방지 */
 }
 .wrapper-holder.grey{background: #28292b;}
 #header {
@@ -164,6 +169,12 @@ a:hover{text-decoration:underline;}
 	display: block;
 	text-transform: uppercase;
 	margin: 85px 0 23px;
+	
+	/* 배경 이미지 추가 */
+	background-image: url("photos\농장사진.png");
+	background-size: cover;         /* 이미지를 요소 크기에 맞게 조절 */
+	background-position: center;    /* 중앙 정렬 */
+	background-repeat: no-repeat;   /* 반복 방지 */
 }
 #nav {
 	position: relative;
